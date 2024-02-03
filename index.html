@@ -7,15 +7,16 @@
 </head>
 <style>
     body {
-        font-family: 'Arial', sans-serif;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         margin: 0;
         padding: 0;
-        background-color: #f4f4f4;
+        background-color: antiquewhite;
     }
 
     header {
+        font-family: 'Times New Roman', Times, serif;
         background-color: #333;
-        color: #fff;
+        color: cadetblue;
         padding: 10px;
         text-align: center;
     }
@@ -37,27 +38,50 @@
     }
 
     nav a:hover {
-        color: #ffd700;
+        color: pink;
     }
 
     section {
-        padding: 20px;
+        padding: 50px;
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-between;
     }
 
     footer {
         background-color: #333;
-        color: #fff;
+        color: cadetblue;
         text-align: center;
         padding: 10px;
         position: fixed;
         bottom: 0;
         width: 100%;
     }
+
+    .image-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .image-wrapper {
+        text-align: center;
+    }
+
+    .image-wrapper {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .image-wrapper p {
+        margin: 10px 0;
+    }
 </style>
 </head>
-<body>
+<body id="top">
 <header>
-    <h1>RICEL SILK STREET</h1>
+    <h1>RICEL TREND THREAD</h1>
 </header>
 
 <nav>
@@ -70,12 +94,12 @@
 
 <article id="about">
 <section>
-    <h2>About Ricel Silk Street</h2>
-    <p>Welcome to our very own online clothing store, where fashion meets comfort and style! We are more than just an online clothing store – we are a destination for individuals who appreciate quality, trendsetting designs, and unparalleled customer service.</p>
+    <h2>About Trend Thread</h2>
+    <p>Welcome to our very own online clothing store! Ricel Trend Thread, an innovative online clothing store, has quickly become a fashion destination for trendsetters and style enthusiasts alike. Offering a curated collection of chic and contemporary apparel, Ricel Trend Thread combines the latest fashion trends with a commitment to quality and affordability. The user-friendly website provides a seamless shopping experience, showcasing a diverse range of clothing that caters to various tastes and preferences. With a keen eye for design and a dedication to staying ahead of the fashion curve, Ricel Trend Thread has established itself as a go-to destination for those seeking not only stylish attire but also a fresh and dynamic approach to online fashion retail.</p>
     <h2>Our Story</h2>
-    <p>Founded in 2024, Ricel Silk Street was born out of a passion for fashion and a desire to provide a seamless shopping experience for our customers. With a team of dedicated fashion enthusiasts, we curate a collection of clothing that reflects the latest trends while ensuring comfort and affordability.</p>
+    <p>Founded in 2024, Ricel Trend Thread was born out of a passion for fashion and a desire to provide a seamless shopping experience for our customers. With a team of dedicated fashion enthusiasts, we curate a collection of clothing that reflects the latest trends while ensuring comfort and affordability.</p>
     <h2>Our Mission</h2>
-    <p>At Ricel Silk Street, our mission is to empower individuals to express their unique style through our carefully selected range of clothing. We believe that fashion is a form of self-expression, and everyone deserves to feel confident and stylish in what they wear.</p>
+    <p>At Ricel Trend Thread, our mission is to empower individuals to express their unique style through our carefully selected range of clothing. We believe that fashion is a form of self-expression, and everyone deserves to feel confident and stylish in what they wear.</p>
     <h2>What Sets Us Apart</h2>
     <ul>
         <li>
@@ -91,34 +115,64 @@
         </li>
     </ul>
     <h2>Sustainable Fashion</h2>
-    <p>We are committed to making a positive impact on the environment. Ricel Silk Street is actively working towards incorporating sustainable and eco-friendly practices into our operations. From ethical sourcing to eco-conscious packaging, we are on a journey towards a more sustainable future.</p>
+    <p>We are committed to making a positive impact on the environment. Ricel Trend Thread is actively working towards incorporating sustainable and eco-friendly practices into our operations. From ethical sourcing to eco-conscious packaging, we are on a journey towards a more sustainable future.</p>
 </section>
 <hr>
 <article id="products">
 <section>
     <figure>
-        <h2 style="text-align: center;">Featured Products</h2>
-        <img src="prod1.jpg" alt="Women Long Denim Skirt" height="250">
+        <h2 style="text-align: center;">FEATURED PRODUCTS</h2>
+        <h3 style="text-align: center; color: cadetblue;">Women's Wear</h3>
+        <div class="container">
+        <img src="prod1.jpg" alt="Women Long Denim Skirt" class="image" height="250">
         <figcaption style="color: brown; font-weight: bold;">Women Long Denim Skirt</figcaption>
         <figcaption class="box">Price: PHP 1,990.00</figcaption>
-        <button class="button">Purchase Now</button>
+        <br>
+        <button class="button" style="background-color: pink; padding: 5px; border-radius: 10px;">Purchase Now</button>
     </figure>
     </section>
     <section>
         <figure>
-            <img src="prod2.avif" alt="Supima Cotton Crew Neck Short Sleeve T-Shirt" height="250">
-            <figcaption style="color: brown; font-weight: bold;">Supima Cotton Crew Neck Short Sleeve T-Shirt</figcaption>
-            <figcaption class="box">Price: PHP 590.00</figcaption>
-            <button class="button">Purchase Now</button>
+            <img src="prod2.avif" alt="Supima Cotton Crew Neck Sleeve T-Shirt" height="250" class="image">
+            <figcaption style="color: brown; font-weight: bold;">Supima Cotton Crew Neck<br>Short Sleeve T-Shirt</figcaption>
+            <figcaption>Price: PHP 590.00</figcaption>
+            <br>
+            <button style="background-color: pink; padding: 5px; border-radius: 10px;">Purchase Now</button>
         </figure>
         </section>
         <section>
             <figure>
-                <img src="" alt="">
+                <img src="prod3.avif" alt="Smooth Stretch Cotton Crew Long Sleeve T-Shirt" class="image" height="250">
+                <figcaption style="color: brown; font-weight: bold;">Smooth Stretch Cotton Crew <br>Long Sleeve T-Shirt</figcaption>
+                <figcaption>Price: PHP 990.00</figcaption>
+                <br>
+                <button style="background-color: pink; padding: 5px; border-radius: 10px;">Purchase Now</button>
+            </div>
             </figure>
         </section>
+        <section>
+            <div class="image-container">
+                <div class="image-wrapper">
+                <img src="prod1.jpg" alt="" class="image" height="250">
+                <p style="color: brown; font-weight: bold;">Women Long Denim Skirt</p>
+                <p>Price: PHP 1,990.00</p>
+                </div>
+                <div class="image-wrapper">
+                <img src="prod2.avif" alt="" class="image" height="250">
+                <p style="color: brown; font-weight: bold;">Supima Cotton Crew Neck<br>Short Sleeve T-Shirt</p>
+                <p>Price: PHP 590.00</p>
+                </div>
+                <div class="image-wrapper">
+                <img src="prod3.avif" alt="" class="image" height="250">
+                <p style="color: brown; font-weight: bold;">Smooth Stretch Cotton Crew <br>Long Sleeve T-Shirt</p>
+                <p>Price: PHP 990.00</p>
+                <button style="background-color: pink; padding: 5px; border-radius: 10px;">Purchase Now</button>
+                </div>
+
+            </div>
+        </section>
 <footer>
-    &copy; 2024 Ricel Silk Street. All rights reserved.
+    &copy; 2024 Ricel Trend Thread. All rights reserved.
 </footer>
 
 </body>
