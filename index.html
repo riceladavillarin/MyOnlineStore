@@ -4,87 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Semantic Exercise 4 - My Online Store</title>
+    <link rel="icon" href="logo/Ricel Trend Thread.png" type="Online Store Icon">
+    <link rel="shortcut icon" href="logo/Ricel Trend Thread.png" type="Online Store Icon">
+    <link rel="stylesheet" href="main.css">
 </head>
-<style>
-    body {
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        margin: 0;
-        padding: 0;
-        background-color: antiquewhite;
-    }
 
-    header {
-        font-family: 'Times New Roman', Times, serif;
-        background-color: #333;
-        color: cadetblue;
-        padding: 10px;
-        text-align: center;
-    }
-
-    nav {
-        display: flex;
-        justify-content: center;
-        background-color: #555;
-        padding: 10px;
-    }
-
-    nav a {
-        color: #fff;
-        text-decoration: none;
-        padding: 10px;
-        margin: 0 10px;
-        font-weight: bold;
-        transition: color 0.3s;
-    }
-
-    nav a:hover {
-        color: pink;
-    }
-
-    section {
-        padding: 50px;
-    }
-
-    .container {
-        display: flex;
-        justify-content: space-between;
-    }
-
-    footer {
-        background-color: #333;
-        color: cadetblue;
-        text-align: center;
-        padding: 10px;
-        position: fixed;
-        bottom: 0;
-        width: 100%;
-    }
-
-    .image-container {
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .image-wrapper {
-        text-align: center;
-    }
-
-    .image-wrapper {
-        max-width: 100%;
-        height: auto;
-    }
-
-    .image-wrapper p {
-        margin: 10px 0;
-    }
-</style>
 </head>
 <body id="top">
+
 <header>
-    <h1>RICEL TREND THREAD</h1>
+    <br>
+        <img src="logo/Ricel Trend Thread.png" alt="_logo" height="80" width="80" style="border-radius: 50%;" style="box-shadow: 0 0 5cap; color: gold;">
+    <h1 >RICEL TREND THREAD</h1>
 </header>
 
+<main>
+
 <nav>
+    
     <a href="#home">Home</a>
     <a href="#about">About Us</a>
     <a href="#products">Products</a>
@@ -120,47 +57,23 @@
 <hr>
 <article id="products">
 <section>
-    <figure>
         <h2 style="text-align: center;">FEATURED PRODUCTS</h2>
-        <h3 style="text-align: center; color: cadetblue;">Women's Wear</h3>
-        <div class="container">
-        <img src="prod1.jpg" alt="Women Long Denim Skirt" class="image" height="250">
-        <figcaption style="color: brown; font-weight: bold;">Women Long Denim Skirt</figcaption>
-        <figcaption class="box">Price: PHP 1,990.00</figcaption>
         <br>
-        <button class="button" style="background-color: pink; padding: 5px; border-radius: 10px;">Purchase Now</button>
-    </figure>
-    </section>
-    <section>
-        <figure>
-            <img src="prod2.avif" alt="Supima Cotton Crew Neck Sleeve T-Shirt" height="250" class="image">
-            <figcaption style="color: brown; font-weight: bold;">Supima Cotton Crew Neck<br>Short Sleeve T-Shirt</figcaption>
-            <figcaption>Price: PHP 590.00</figcaption>
-            <br>
-            <button style="background-color: pink; padding: 5px; border-radius: 10px;">Purchase Now</button>
-        </figure>
-        </section>
-        <section>
-            <figure>
-                <img src="prod3.avif" alt="Smooth Stretch Cotton Crew Long Sleeve T-Shirt" class="image" height="250">
-                <figcaption style="color: brown; font-weight: bold;">Smooth Stretch Cotton Crew <br>Long Sleeve T-Shirt</figcaption>
-                <figcaption>Price: PHP 990.00</figcaption>
-                <br>
-                <button style="background-color: pink; padding: 5px; border-radius: 10px;">Purchase Now</button>
-            </div>
-            </figure>
-        </section>
+        <h3 style="text-align: center; color: cadetblue;">Women's Wear</h3>
         <section>
             <div class="image-container">
                 <div class="image-wrapper">
                 <img src="prod1.jpg" alt="" class="image" height="250">
                 <p style="color: brown; font-weight: bold;">Women Long Denim Skirt</p>
                 <p>Price: PHP 1,990.00</p>
+                <br>
+                <button style="background-color: pink; padding: 5px; border-radius: 10px;">Purchase Now</button>
                 </div>
                 <div class="image-wrapper">
                 <img src="prod2.avif" alt="" class="image" height="250">
                 <p style="color: brown; font-weight: bold;">Supima Cotton Crew Neck<br>Short Sleeve T-Shirt</p>
                 <p>Price: PHP 590.00</p>
+                <button style="background-color: pink; padding: 5px; border-radius: 10px;">Purchase Now</button>
                 </div>
                 <div class="image-wrapper">
                 <img src="prod3.avif" alt="" class="image" height="250">
@@ -168,9 +81,55 @@
                 <p>Price: PHP 990.00</p>
                 <button style="background-color: pink; padding: 5px; border-radius: 10px;">Purchase Now</button>
                 </div>
-
             </div>
         </section>
+        <section>
+            <div class="image-container">
+                <div class="image-wrapper">
+                <img src="prod4.avif" alt="" class="image" height="250">
+                <p style="color: brown; font-weight: bold;">Linen Blend Open Collar<br>Short Sleeve Shirt</p>
+                <p>Price: PHP 1,290.00</p>
+                <button style="background-color: pink; padding: 5px; border-radius: 10px;">Purchase Now</button>
+                </div>
+                <div class="image-wrapper">
+                <img src="prod5.avif" alt="" class="image" height="250">
+                <p style="color: brown; font-weight: bold;">Sanrio Characters Long<br>Sleeve Sweat Shirt</p>
+                <p>Price: PHP 1,490.00</p>
+                <button style="background-color: pink; padding: 5px; border-radius: 10px;">Purchase Now</button>
+                </div>
+                <div class="image-wrapper">
+                <img src="prod6.avif" alt="" class="image" height="250">
+                <p style="color: brown; font-weight: bold;">Smooth Cotton Relaxed Striped<br>Long Sleeve Crew Neck Sweater</p>
+                <p>Price: PHP 1,990.00</p>
+                <button style="background-color: pink; padding: 5px; border-radius: 10px;">Purchase Now</button>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h3 style="text-align: center; color: cadetblue;">Men's Wear</h3>
+            <br>
+            <div class="image-container">
+                <div class="image-wrapper">
+                <img src="prod7.avif" alt="" class="image" height="250">
+                <p style="color: brown; font-weight: bold;">AIRism Cotton Full Open<br>Short Sleeve Polo Shirt</p>
+                <p>Price: PHP 990.00</p>
+                <button style="background-color: pink; padding: 5px; border-radius: 10px;">Purchase Now</button>
+                </div>
+                <div class="image-wrapper">
+                <img src="prod8.avif" alt="" class="image" height="250">
+                <p style="color: brown; font-weight: bold;">Dry Pique Striped Short<br>Sleeve Polo Shirt</p>
+                <p>Price: PHP 690.00</p>
+                <button style="background-color: pink; padding: 5px; border-radius: 10px;">Purchase Now</button>
+                </div>
+                <div class="image-wrapper">
+                <img src="prod9.avif" alt="" class="image" height="250">
+                <p style="color: brown; font-weight: bold;">Dry Pique Striped Short<br>Sleeve Polo Shirt</p>
+                <p>Price: PHP 570.00</p>
+                <button style="background-color: pink; padding: 5px; border-radius: 10px;">Purchase Now</button>
+                </div>
+            </div>
+        </section>
+    </main>
 <footer>
     &copy; 2024 Ricel Trend Thread. All rights reserved.
 </footer>
